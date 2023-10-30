@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: .5px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #2E994D;
+    
+}
+
+button:hover{
+    background-color: rgb(0, 64, 148);
+}
+
+
+
+header{
+    background-color: #243328;
+}
+
+
+header .nav_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 1.6em;
+    
+    
+}
+
+header .nav_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    margin-bottom: 15px;
+}
+header .nav_link{
+
+    text-decoration: none;
+    font-weight: bold;
+    color:#FFFFFF;
+    padding: 10px;
+    
+}
+
+header .nav_link:hover{
+    color: rgb(0, 64, 148);
+}
+
+.hero_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:linear-gradient(115deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)) ,url(./imageness/pexels-ana-benet-8242974.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    color: white;
+}
+
+.hero_texto{
+    width: 70vh;
+}
+
+.hero_texto p{
+    font-size: 1.5em;
+}
+
+.Masinfo{
+    text-align: center;
+    padding: 200px 12px;
+    background-color: #EBEADF;
+}
+.texto_info p{
+    font-size: 1.50em;
+}
+
+.Tour_anteriores{
+    background-color:#FFFFFF;
+    text-align: center;
+}
+
+.Tour_container {
+    padding: 100px 0px;
+}
+
+.Tour_container h3{
+    margin-top: 0;
+}
+
+.tour_texto{
+    padding-top: 20px;
+}
+
+.carta{
+    padding: 50px 0px;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    
+}
+
+.carta:first-child{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imageness/brasil.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.carta:nth-child(2){
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imageness/francia2.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imageness/inglaterra.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+footer{
+    background-color: #ECEFF3;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100 100 100);
+}
+.footer_container{
+    height: 150px;
+    display:flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
+.Contacto{
+    background-color: #243328;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+
+
+
+    .formulario {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 0 auto;
+        color: black;
+      }
+      
+    
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .textarea {
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+        max-height: 100px;
+      }
+      
+  
+      .submit-button {
+        background-color: #2E994D;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        ;
+      }
+      
+      .submit-button:hover {
+        background-color: #0056b3;
+      }
+      
+   
+      label {
+        font-weight: bold;
+      }
+      
+
+      #Contacto h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+
+      }
+      
+      .Contacto p{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 1.5em
+      }
+
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .nav_container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .nav_items{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+    
+    header .nav_link{
+        padding: 10px;
+    }
+
+    .container_info{
+        display: flex;
+        justify-content: center;
+        max-height: 30vh;
+        align-items: center;
+    }
+    
+    .texto_info{
+        width: 50%;
+        text-align: center;
+        padding: 25px;
+        padding-left: 100px;
+        
+    }
+
+    .img_info{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imageness/pintar.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        margin-left: 100px;
+        box-shadow:  2px 2px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 3px;
+    }
+
+    .Tour_container{
+        display: flex;
+        justify-content: center;
+        padding: 100px 250px;
+        height: 65vh;
+       
+    }
+
+   
+
+    .Tour_container h3{
+        margin-top: 0;
+
+    }
+    .carta{
+        padding: 0px 100px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Contacto{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .formulario{
+        margin-right: 200px;
+        
+    }
+
+    .Contacto_texto{
+        padding:0 100px;
+    }
+    
+    .Contacto textarea {
+        min-width: 400px
+    }
+
+    iframe{
+        padding: 0px 200px;
+    }
+
+    .footer_container{
+        display:flex;
+        justify-content: end;
+        
+    }
+}

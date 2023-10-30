@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+            <p class="logo">Tour Gallery</p>
+            <nav>
+                <ul class="nav_items">
+                    <li>
+                        <a href="#Inicio" class="nav_link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#Nosotros" class="nav_link">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_link">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#Contacto" class="nav_link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero_box" id="Inicio">
+        <ul>
+            <li>
+                <div class="hero_texto">
+                    <p>Tour Gallery</p>
+                    <h1>¡Llegó a la Argentina!</h1>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="Masinfo" id="Nosotros">
+        <div class="container_info">
+            <div class="img_info"></div>
+            <div class="texto_info">
+                <h2>Nosotros</h2><br>
+                <p>
+                    Tour Gallery te lleva a las ciudades más icónicas para vivir experiencias culturales únicas. Desde exposiciones fascinantes hasta actividades para toda la familia, te invitamos a explorar el mundo del arte con nosotros. ¡Inspírate y disfruta!
+                </p>
+                
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section class="Tour_anteriores">
+        <div class="tour_texto">
+            <h2>Anteriores exposiciones</h2>
+        </div>
+        
+        <div class="Tour_container">
+            
+            
+            <div class="carta">
+                <h3>Brasil</h3>
+    
+                
+
+                <button>Ver</button>
+            </div>
+    
+            <div class="carta">
+    
+                <h3>Francia</h3>
+    
+                
+
+                <button>Ver</button>
+            </div>
+    
+            <div class="carta">
+    
+                <h3>Inglaterra</h3>
+    
+                
+
+                <button>Ver</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contacto" id="Contacto">
+        <div class="Contacto_texto">
+            <h1>Visitanos!</h1><br>
+            <p>
+            En el corazón de la ciudad, el Obelisco te espera con un abanico de actividades al aire libre y una emocionante exposición de arte.<br>
+             Nuestros guías expertos te llevarán en un viaje cultural que nunca olvidarás. Ven y descubre un mundo de arte y diversión en el icónico Obelisco.
+
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168600915167!2d-58.38373564351238!3d-34.60373516793724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1698623530448!5m2!1ses-419!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <form name="formulario" class="formulario"  onsubmit="validarEnviar(); return false;">
+
+            <div class="form-group">
+                <label for="name" id="name-label">Nombre</label>
+                <input type="text" name="nombre" id="name" placeholder="Escribí tu Nombre" class="form-control" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Escribí tu Email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <p>Mensaje:</p>
+                <textarea id="comments" name="comentarios" class="textarea"></textarea>
+            </div>
+    
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Enviar</button>
+            </div>
+        </form>
+        
+    </section>
+        
+    <footer>
+        <div class="footer_container">
+            <p>
+                &copy; Tour Gallery
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
